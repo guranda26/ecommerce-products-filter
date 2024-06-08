@@ -17,6 +17,10 @@ The objective of this project is to create a user-friendly interface that matche
 - **Styled Components**: Employed for styling components with CSS-in-JS approach, allowing for easy customization and maintenance.
 - **Axios**: Used for making HTTP requests to fetch product data from the API.
 
+## Deployment:
+
+**https://ecommerce-products-filter-3tlr4qef2-guranda26s-projects.vercel.app/**
+
 ## Installation and Setup
 
 1. Clone the repository:
