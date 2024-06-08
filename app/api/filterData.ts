@@ -3,7 +3,7 @@ import axios from "axios";
 export const getFilterData = async (categoryId: number) => {
   try {
     const response = await axios.get(
-      `https://zoommer-api.lemon.do/v1/Content/filter`,
+      `  "https://your-proxy-server.herokuapp.com/api/Content/filter"      `,
       {
         params: {
           catId: categoryId,

@@ -19,10 +19,7 @@ export const getProducts = async (
       params.Name = searchQuery;
     }
 
-    const response = await axios.get(
-      "https://zoommer-api.lemon.do/v1/Products/v3",
-      { params }
-    );
+    const response = await axios.get("/api/Products/v3", { params });
     return response.data.products;
   } catch (error) {
     console.error("Error fetching products:", error);
