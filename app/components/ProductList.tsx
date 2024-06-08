@@ -10,7 +10,7 @@ const ProductList: React.FC = () => {
   const fetchProducts = async (page: number) => {
     setIsLoading(true);
     try {
-      const response = await axios.get(`/api/Products/v3`, {
+      const response = await axios.get("/api/Products/v3", {
         params: {
           CategoryId: 21,
           Page: page,
