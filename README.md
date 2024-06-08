@@ -24,3 +24,28 @@ The objective of this project is to create a user-friendly interface that matche
    ```bash
    git clone https://github.com/your-username/product-filters-app.git
    ```
+
+2. Navigate to the project directory:
+
+```bash
+cd product-filters-app
+```
+
+3. Install dependencies:
+
+```bash
+npm install
+```
+
+4. Start the development server:
+
+```bash
+npm run dev
+```
+
+## Scripts
+
+**npm run dev: Starts the development server.**
+**npm run build: Builds the production-ready application.**
+**npm run start: Starts the production server.**
+**npm run lint: Runs ESLint to lint the codebase.**
