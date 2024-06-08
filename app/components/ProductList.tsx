@@ -10,16 +10,13 @@ const ProductList: React.FC = () => {
   const fetchProducts = async (page: number) => {
     setIsLoading(true);
     try {
-      const response = await axios.get(
-        `https://zoommer-api.lemon.do/v1/Products/v3`,
-        {
-          params: {
-            CategoryId: 21,
-            Page: page,
-            Limit: 12,
-          },
-        }
-      );
+      const response = await axios.get(`/api/Products/v3`, {
+        params: {
+          CategoryId: 21,
+          Page: page,
+          Limit: 12,
+        },
+      });
       setProducts((prevProducts) => [
         ...prevProducts,
         ...response.data.products,
